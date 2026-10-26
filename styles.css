@@ -164,40 +164,43 @@ a {
 .brand-logo {
   display: inline-flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   text-decoration: none;
   line-height: 1;
-  transition: opacity 0.2s ease;
+  transition: transform 0.2s ease, opacity 0.2s ease;
 }
 
 .brand-logo:hover {
-  opacity: 0.85;
+  opacity: 0.94;
+  transform: translateY(-1px);
 }
 
-.brand-name {
-  font-family: var(--font-heading);
-  font-size: 1.75rem;
-  font-weight: 800;
-  letter-spacing: 0.12em;
-  color: #ffffff;
-  line-height: 1;
+.brand-logo-img {
+  height: 28px;
+  width: auto;
+  display: block;
+  object-fit: contain;
+  filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.4));
 }
 
-.brand-q {
-  color: orangered;
-}
-
-.brand-tag {
+.brand-logo-sub {
   font-family: var(--font-body);
-  font-size: 0.55rem;
+  font-size: 0.52rem;
   font-weight: 500;
-  letter-spacing: 0.48em;
-  text-indent: 0.48em;
-  color: rgba(255, 255, 255, 0.75);
+  letter-spacing: 0.44em;
+  text-indent: 0.44em; /* Offsets trailing letter-spacing to center mathematically */
+  color: #ffffff;
+  opacity: 0.9;
   text-transform: uppercase;
-  margin-top: 4px;
+  margin-top: 3px;
   display: block;
   white-space: nowrap;
+  transition: opacity 0.2s ease, color 0.2s ease;
+}
+
+.brand-logo:hover .brand-logo-sub {
+  opacity: 1;
+  color: #ffffff;
 }
 
 /* ── Legacy/unused classes kept for safety ── */
@@ -205,6 +208,11 @@ a {
 .brand-name-text { font-family: var(--font-heading); font-size: 2.1rem; font-weight: 800; letter-spacing: 0.14em; color: #ffffff; line-height: 1; }
 .brand-q-ring { display: flex; align-items: center; width: 2.05rem; height: 2.05rem; }
 .brand-q-ring svg { width: 100%; height: 100%; }
+
+.brand-q {
+  color: orangered;
+  text-shadow: 0 0 22px rgba(255, 69, 0, 0.45);
+}
 .brand-tag { font-size: 0.6rem; letter-spacing: 0.42em; color: var(--accent-gold); font-weight: 700; margin-top: 3px; text-transform: uppercase; }
 
 .nav-menu {

@@ -355,16 +355,60 @@ const productSpecsData = {
       { key: 'Color & Texture', value: 'Bright radiant ruby-orange, crisp gentle pop on palate' }
     ]
   },
-  'shrimp': {
-    title: 'Argentine Red Shrimp (Matte Barrier Pouch)',
-    category: 'Shellfish Selection',
-    img: 'images/product_argentine_shrimp_new.png',
-    desc: 'Wild-caught deep-ocean red shrimp packed in resealable matte pouches with transparent window.',
+  'shrimp-hoso': {
+    title: 'Vannamei Shrimp (HOSO Whole)',
+    category: 'Shellfish Selection • Whole Shrimp',
+    img: 'images/shrimp_hoso_whole.png',
+    desc: 'Raw frozen whole Vannamei shrimp with head and shell intact. Preserves peak oceanic sweetness and deep culinary richness.',
     specs: [
-      { key: 'Type', value: 'Individually Quick Frozen (IQF) wild-caught' },
-      { key: 'Net Weight', value: '500g and 1,000g barrier pouches' },
-      { key: 'Glaze', value: 'Protective < 5% water glaze' },
-      { key: 'Shelf Life', value: '24 months at -18°C' }
+      { key: 'Product Form', value: 'Head-On, Shell-On (HOSO), Raw Frozen' },
+      { key: 'Caliber', value: 'HOSO 30/40 count per kg' },
+      { key: 'Packaging', value: '1 kg Retail Stand-Up Pouch | 10 kg (10x1kg) Master Case' },
+      { key: 'Freezing / Glaze', value: 'IQF Individually Frozen | Glazing 5–6%' },
+      { key: 'Origin', value: 'Product of India' },
+      { key: 'Storage Temp', value: 'Keep frozen at -18°C or below' }
+    ]
+  },
+  'shrimp-hlso': {
+    title: 'Vannamei Shrimp (HLSO Headless)',
+    category: 'Shellfish Selection • Grill & BBQ',
+    img: 'images/shrimp_hlso_bbq.png',
+    desc: 'Headless shell-on shrimp engineered for open flame, charcoal grills, and barbecues to protect meat from drying.',
+    specs: [
+      { key: 'Product Form', value: 'Headless, Shell-On (HLSO), Raw Frozen' },
+      { key: 'Calibers Available', value: '16/20, 21/25, 26/30 count per lb' },
+      { key: 'Packaging', value: '1 kg Retail Stand-Up Pouch | 10 kg Master Case' },
+      { key: 'Glaze Level', value: 'Protective water glaze 5–6%' },
+      { key: 'Culinary Use', value: 'Ideal for Charcoal Grill, Teppanyaki, and BBQ skewers' },
+      { key: 'Storage Temp', value: 'Keep frozen at -18°C' }
+    ]
+  },
+  'shrimp-pdto': {
+    title: 'Vannamei Shrimp (PDTO Tail-On)',
+    category: 'Shellfish Selection • Ready to Cook',
+    img: 'images/shrimp_pdto_tail_on.png',
+    desc: 'Peeled and deveined with tail segment intact for premium fine dining presentation, tempura, and cocktail platters.',
+    specs: [
+      { key: 'Product Form', value: 'Peeled, Deveined, Tail-On (PDTO), Raw Frozen' },
+      { key: 'Calibers Available', value: '16/20, 21/25, 26/30, 31/40 count per lb' },
+      { key: 'Packaging', value: '1 kg Pouch with product window | 10 kg Master Case' },
+      { key: 'Preparation', value: 'Ready to cook directly without peeling' },
+      { key: 'Glaze Level', value: 'Glazing 5–6%' },
+      { key: 'Storage Temp', value: 'Keep frozen at -18°C' }
+    ]
+  },
+  'shrimp-pd': {
+    title: 'Vannamei Shrimp (PD Tail-Off)',
+    category: 'Shellfish Selection • 100% Edible Meat',
+    img: 'images/shrimp_pd_tail_off.png',
+    desc: 'Completely peeled and deveined with tail removed for effortless cooking in pastas, risottos, salads, and poke bowls.',
+    specs: [
+      { key: 'Product Form', value: 'Peeled, Deveined, Tail-Off (PD), Raw Frozen' },
+      { key: 'Caliber', value: 'PD 31/40 count per lb' },
+      { key: 'Packaging', value: '1 kg Retail Stand-Up Pouch | 10 kg Master Case' },
+      { key: 'Yield', value: '100% net edible yield, zero kitchen prep time' },
+      { key: 'Glaze Level', value: 'Glazing 5–6%' },
+      { key: 'Storage Temp', value: 'Keep frozen at -18°C' }
     ]
   },
   'box-whole-gutted': {

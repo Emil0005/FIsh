@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initNavbar();
   init3DPackageTilt();
   initProductFilters();
-
+  initLanguage();
 });
 
 /* --------------------------------------------------------------------------
@@ -546,4 +546,264 @@ function handleInquirySubmit(e) {
   setTimeout(() => {
     successBox.scrollIntoView({ behavior: 'smooth', block: 'center' });
   }, 100);
+}
+
+
+/* --------------------------------------------------------------------------
+   Language Switcher (English / Chinese)
+   -------------------------------------------------------------------------- */
+
+const i18nData = {
+  en: {
+    // Top bar
+    badge_farm:        'FARM DIRECT PRODUCER',
+    top_bar_desc:      'High-Altitude Mountain Springs • 100% Traceable • Flash-Frozen & Chilled at Source',
+    top_bar_cta:       'B2B Wholesale Inquiries →',
+
+    // Navbar
+    nav_about:         'About',
+    nav_how:           'How We Grow',
+    nav_cuts:          'Signature Cuts',
+    nav_products:      'Products & Packaging',
+    nav_standards:     'Quality Standards',
+    nav_partner:       'Partner With Us',
+
+    // Hero
+    hero_sub:          'Two Glacial Legends. Grown with Care. Harvested at Peak Purity.',
+    badge_altitude:    'High Altitude Origin',
+    badge_water:       'Crystal Clear Waters',
+    badge_nutrition:   'Natural Nutrition',
+    badge_quality:     'Premium Quality',
+    hero_cta_products: 'Explore All Products',
+    hero_cta_wholesale:'Wholesale Inquiries',
+
+    // Trust ribbon
+    ribbon_h1: 'High-Altitude Springs',
+    ribbon_p1: 'Continuous natural mountain water flow rich in dissolved oxygen.',
+    ribbon_h2: 'Controlled Natural Growth',
+    ribbon_p2: 'Non-GMO feed, zero growth promoters, natural swimming in strong currents.',
+    ribbon_h3: 'Flash-Packed at Source',
+    ribbon_p3: 'Harvested, filleted, and sealed within hours directly beside the raceways.',
+    ribbon_h4: 'Global Cold-Chain Export',
+    ribbon_p4: 'Certified HACCP & ISO 22000 compliance for international retail & HORECA.',
+
+    // About
+    about_subtitle:    'ROOTED IN ARMENIA. CONNECTED TO THE WORLD.',
+    about_title:       'From Origin<br>to Ocean.',
+    mvp_mission_label: 'OUR MISSION',
+    mvp_vision_label:  'OUR VISION',
+    mvp_promise_label: 'OUR PROMISE',
+
+    // How We Grow
+    grow_subtitle:  'THE PRODUCER JOURNEY',
+    grow_title:     'How We Grow Our Fish',
+
+    // Signature Cuts
+    cuts_subtitle:  'FARM-DIRECT PACKAGING FORMATS',
+    cuts_title:     'Three Signature Cuts. Sealed at Source.',
+
+    // Products
+    products_subtitle:   'RETAIL & HORECA PACKAGING',
+    products_title:      'Our Complete Product Portfolio',
+
+    // Filters
+    filter_all:          'All Products',
+    filter_karmrakhayt:  'Mountain Trout (Karmrakhayt)',
+    filter_ishkhan:      'Royal Trout (Ishkhan)',
+    filter_boxes:        'Wholesale 5kg Boxes',
+    filter_seafood:      'Caviar & Seafood',
+
+    // Category headers
+    cat_karmrakhayt: 'Mountain Trout (Karmrakhayt)',
+    cat_ishkhan:     'Royal Trout (Ishkhan)',
+    cat_boxes:       'Wholesale 5kg Master Boxes',
+    cat_seafood:     'Caviar & Selected Seafood',
+
+    // Product titles
+    prod_whole_gutted:    'Whole Gutted Trout',
+    prod_karm_fillet:     'Karmrakhayt Fillet (Skin-On, PBO)',
+    prod_butterfly:       'Butterfly Split (Opened)',
+    prod_whole_ishkhan:   'Whole Royal Trout (Ishkhan)',
+    prod_ishkhan_fillet:  'Royal Trout Fillet (Skin-On, PBO)',
+    prod_ishkhan_portions:'Royal Trout Portions',
+    prod_ishkhan_steak:   'Royal Trout Steak',
+    prod_box_whole:       'Whole Gutted Trout (5 kg Master Box)',
+    prod_box_butterfly:   'Butterfly Cut Trout (5 kg Master Box)',
+    prod_box_fillets:     'Skin-On Fillets Trout (5 kg Master Box)',
+    prod_roe:             'BRINQ Trout Roe (Premium Glass Jar)',
+    prod_shrimp_hoso:     'Vannamei Shrimp (HOSO Whole)',
+    prod_shrimp_hlso:     'Vannamei Shrimp (HLSO Headless)',
+    prod_shrimp_pdto:     'Vannamei Shrimp (PDTO Tail-On)',
+    prod_shrimp_pd:       'Vannamei Shrimp (PD Tail-Off)',
+
+    // Standards
+    standards_subtitle: 'CERTIFIED EXCELLENCE',
+    standards_title:    'Strict Standards for Global Markets',
+    std_haccp:          'HACCP Certified',
+    std_iso:            'ISO 22000 Food Safety',
+    std_sustainable:    'Sustainable Aquaculture',
+    std_coldchain:      'Unbroken Cold Chain',
+
+    // Inquiry / Form
+    inquiry_subtitle:   'COMMERCIAL COOPERATION',
+    inquiry_title:      'Partner Directly with the Producer',
+    contact_desk:       'Direct Trade Desk:',
+    form_title:         'Request Wholesale Catalog & Pricing',
+    form_sub:           'Fill out the details below. Our export sales manager will reply within 24 hours.',
+    form_name:          'Your Name *',
+    form_company:       'Company / Organization *',
+    form_email:         'Business Email *',
+    form_phone:         'Phone / WhatsApp',
+    form_category:      'Business Category',
+    form_message:       'Estimated Volume & Target Market',
+    form_submit:        'Submit Wholesale Request',
+
+    // Footer
+    footer_farm:     'The Farm',
+    footer_products: 'Products',
+    footer_b2b:      'B2B & Partners',
+  },
+
+  zh: {
+    // Top bar
+    badge_farm:        '直接来自养殖场',
+    top_bar_desc:      '高海拔山泉水源 • 100% 全程可追溯 • 源头急冻及冷藏',
+    top_bar_cta:       'B2B 批发询价 →',
+
+    // Navbar
+    nav_about:         '关于我们',
+    nav_how:           '养殖过程',
+    nav_cuts:          '招牌切割',
+    nav_products:      '产品与包装',
+    nav_standards:     '质量标准',
+    nav_partner:       '成为合作伙伴',
+
+    // Hero
+    hero_sub:          '两种冰川珍品。精心养殖。在最佳纯净度时收获。',
+    badge_altitude:    '高海拔原产地',
+    badge_water:       '晶莹清澈的泉水',
+    badge_nutrition:   '天然营养',
+    badge_quality:     '顶级品质',
+    hero_cta_products: '探索所有产品',
+    hero_cta_wholesale:'批发询价',
+
+    // Trust ribbon
+    ribbon_h1: '高海拔山泉',
+    ribbon_p1: '持续天然高山泉水流，富含溶解氧。',
+    ribbon_h2: '自然生长管控',
+    ribbon_p2: '非转基因饲料，零促生长剂，在强水流中自然游动。',
+    ribbon_h3: '源头急速封装',
+    ribbon_p3: '收割后数小时内直接在养殖池旁完成分割与密封。',
+    ribbon_h4: '全球冷链出口',
+    ribbon_p4: 'HACCP 及 ISO 22000 认证，符合国际零售及餐饮行业标准。',
+
+    // About
+    about_subtitle:    '根植亚美尼亚，连接全球市场。',
+    about_title:       '从源头<br>到餐桌。',
+    mvp_mission_label: '我们的使命',
+    mvp_vision_label:  '我们的愿景',
+    mvp_promise_label: '我们的承诺',
+
+    // How We Grow
+    grow_subtitle:  '生产者的旅程',
+    grow_title:     '我们如何养殖鱼类',
+
+    // Signature Cuts
+    cuts_subtitle:  '直供农场包装格式',
+    cuts_title:     '三款招牌切割。源头密封。',
+
+    // Products
+    products_subtitle:   '零售及餐饮包装',
+    products_title:      '我们的完整产品目录',
+
+    // Filters
+    filter_all:          '全部产品',
+    filter_karmrakhayt:  '山地鳟（卡尔马哈特）',
+    filter_ishkhan:      '皇家鳟（伊什汗）',
+    filter_boxes:        '5公斤批发装',
+    filter_seafood:      '鱼子酱 & 精选海鲜',
+
+    // Category headers
+    cat_karmrakhayt: '山地鳟（卡尔马哈特）',
+    cat_ishkhan:     '皇家鳟（伊什汗）',
+    cat_boxes:       '5公斤批发主箱',
+    cat_seafood:     '鱼子酱 & 精选海鲜',
+
+    // Product titles
+    prod_whole_gutted:    '整条去内脏鳟鱼',
+    prod_karm_fillet:     '卡尔马哈特鱼柳（带皮，去骨）',
+    prod_butterfly:       '蝴蝶切（展开式）',
+    prod_whole_ishkhan:   '整条皇家鳟（伊什汗）',
+    prod_ishkhan_fillet:  '皇家鳟鱼柳（带皮，去骨）',
+    prod_ishkhan_portions:'皇家鳟精切份',
+    prod_ishkhan_steak:   '皇家鳟鱼排',
+    prod_box_whole:       '整条去内脏鳟鱼（5公斤主箱）',
+    prod_box_butterfly:   '蝴蝶切鳟鱼（5公斤主箱）',
+    prod_box_fillets:     '带皮鱼柳鳟鱼（5公斤主箱）',
+    prod_roe:             'BRINQ 鳟鱼子（高档玻璃瓶）',
+    prod_shrimp_hoso:     '凡纳滨对虾（带头带壳，整虾）',
+    prod_shrimp_hlso:     '凡纳滨对虾（去头带壳）',
+    prod_shrimp_pdto:     '凡纳滨对虾（去壳去沙线带尾）',
+    prod_shrimp_pd:       '凡纳滨对虾（全熟去壳去尾）',
+
+    // Standards
+    standards_subtitle: '认证卓越品质',
+    standards_title:    '严格标准，面向全球市场',
+    std_haccp:          'HACCP 认证',
+    std_iso:            'ISO 22000 食品安全',
+    std_sustainable:    '可持续水产养殖',
+    std_coldchain:      '不间断冷链',
+
+    // Inquiry / Form
+    inquiry_subtitle:   '商业合作',
+    inquiry_title:      '直接与生产商合作',
+    contact_desk:       '直接贸易联系：',
+    form_title:         '申请批发目录及报价',
+    form_sub:           '请填写以下信息，我们的出口销售经理将在24小时内回复。',
+    form_name:          '您的姓名 *',
+    form_company:       '公司 / 机构 *',
+    form_email:         '商务邮箱 *',
+    form_phone:         '电话 / WhatsApp',
+    form_category:      '业务类别',
+    form_message:       '预计采购量及目标市场',
+    form_submit:        '提交批发申请',
+
+    // Footer
+    footer_farm:     '养殖场',
+    footer_products: '产品',
+    footer_b2b:      'B2B & 合作伙伴',
+  }
+};
+
+let currentLang = 'en';
+
+function initLanguage() {
+  const saved = localStorage.getItem('brinq_lang');
+  if (saved && (saved === 'en' || saved === 'zh')) {
+    setLanguage(saved);
+  }
+}
+
+function setLanguage(lang) {
+  if (lang !== 'en' && lang !== 'zh') return;
+  currentLang = lang;
+  localStorage.setItem('brinq_lang', lang);
+
+  const translations = i18nData[lang];
+
+  // Update all elements with data-i18n
+  document.querySelectorAll('[data-i18n]').forEach(el => {
+    const key = el.getAttribute('data-i18n');
+    if (translations[key] !== undefined) {
+      el.innerHTML = translations[key];
+    }
+  });
+
+  // Update active state on switcher buttons
+  document.querySelectorAll('.lang-btn').forEach(btn => {
+    btn.classList.toggle('active', btn.getAttribute('data-lang') === lang);
+  });
+
+  // Update <html lang> attribute for accessibility
+  document.documentElement.lang = lang === 'zh' ? 'zh-CN' : 'en';
 }

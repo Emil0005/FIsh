@@ -164,9 +164,19 @@ a {
 .brand-logo {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
+  text-decoration: none;
 }
 
-.brand-name {
+/* ── New SVG-ring logo ── */
+.logo-wordmark {
+  display: flex;
+  align-items: center;
+  gap: 1px;
+  line-height: 1;
+}
+
+.brand-name-text {
   font-family: var(--font-heading);
   font-size: 2.1rem;
   font-weight: 800;
@@ -175,19 +185,27 @@ a {
   line-height: 1;
 }
 
-.brand-q {
-  color: var(--accent-orange);
-  position: relative;
-  display: inline-block;
-  text-shadow: 0 0 18px var(--accent-orange-glow);
+.brand-q-ring {
+  display: flex;
+  align-items: center;
+  width: 2.05rem;
+  height: 2.05rem;
+  filter: drop-shadow(0 0 8px rgba(255, 106, 0, 0.55));
+}
+
+.brand-q-ring svg {
+  width: 100%;
+  height: 100%;
 }
 
 .brand-tag {
-  font-size: 0.65rem;
-  letter-spacing: 0.32em;
+  font-size: 0.6rem;
+  letter-spacing: 0.42em;
   color: var(--accent-gold);
-  font-weight: 600;
-  margin-top: 4px;
+  font-weight: 700;
+  margin-top: 3px;
+  text-transform: uppercase;
+  padding-left: 1px;
 }
 
 .nav-menu {

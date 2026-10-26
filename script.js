@@ -415,6 +415,39 @@ const productSpecsData = {
       { key: 'Storage Temp', value: 'Keep frozen at -18°C' }
     ]
   },
+  'signature-butterfly': {
+    title: 'Butterfly Split Trout (Bone-In, Ready to Grill)',
+    category: 'Gourmet Specialty Cut • Chef\'s Selection',
+    img: 'images/new_butterfly_cut.png',
+    desc: 'Opened flat in butterfly style for fast, even heat penetration on open flame, broilers, or skillets. Crisps evenly on skin while flesh stays tender and succulent.',
+    specs: [
+      { key: 'Cut Type', value: 'Butterfly Split (Bone-In, Gutted, Opened Flat)' },
+      { key: 'Pack Weight', value: '400g - 600g per retail skin-pack tray' },
+      { key: 'Cooking Speed', value: 'Cooks in 6–8 minutes on high heat' },
+      { key: 'Packaging Type', value: 'Vacuum Skin Barrier on Moisture-Resistant Board' },
+      { key: 'Culinary Method', value: 'Charcoal Grill, High-Heat Broiler, Cast Iron Skillet' },
+      { key: 'Storage Temp', value: 'Chilled: 0°C to +2°C | Frozen: -18°C' },
+      { key: 'Shelf Life', value: '12 days chilled / 18 months flash-frozen' },
+      { key: 'Certifications', value: 'HACCP, ISO 22000, Veterinary Export Health Certificate' }
+    ]
+  },
+  'signature-fillets': {
+    title: 'Skin-On Mountain Trout Fillet (Pin-Bone Out)',
+    category: 'Flagship Mountain Trout (Karmrakhayt)',
+    img: 'images/new_fillets.png',
+    desc: 'Hand-trimmed boneless mountain trout fillets with authentic crimson-speckled skin intact for crisp searing. Hermetically sealed in thermoform skin-pack trays directly beside our cold springs.',
+    specs: [
+      { key: 'Latin Name', value: 'Salmo trutta fario (Armenian Mountain Trout)' },
+      { key: 'Cut Type', value: 'Skin-On, Hand-Trimmed, Pin-Bone Out (PBO)' },
+      { key: 'Net Weight', value: '250g - 450g per retail skin-pack tray' },
+      { key: 'Packaging Type', value: 'High-barrier thermoform skin pack with luxury sleeve band' },
+      { key: 'Culinary Method', value: 'Crispy skin pan-sear, cedar plank broil, butter poach' },
+      { key: 'Storage Temp', value: 'Chilled: 0°C to +2°C | Frozen: -18°C' },
+      { key: 'Shelf Life', value: '12 days chilled / 18 months flash-frozen' },
+      { key: 'Master Case', value: '12 packs per master export carton' },
+      { key: 'Certifications', value: 'HACCP, ISO 22000, Veterinary Export Health Certificate' }
+    ]
+  },
   'box-whole-gutted': {
     title: 'Whole Gutted Karmrakhayt (5 kg Master Box)',
     category: 'High-Altitude Trout • Foodservice & Wholesale',
@@ -942,6 +975,39 @@ const productSpecsDataZh = {
       }
     ]
   },
+  "signature-butterfly": {
+    "title": "蝴蝶切展平带骨鳟鱼（解冻即烤）",
+    "category": "高定精切 • 名厨烧烤专研",
+    "img": "images/new_butterfly_cut.png",
+    "desc": "蝴蝶式平铺展平切割，带骨结构受热均匀，非常适合果木炭烤、明火焗烤或铸铁煎锅。鱼皮均匀酥脆焦香，鱼肉鲜嫩多汁。",
+    "specs": [
+      { "key": "切割形态", "value": "蝴蝶展开切（保留脊骨，去内脏，展平）" },
+      { "key": "单包净重", "value": "每贴体托盘 400克 - 600克" },
+      { "key": "烹饪耗时", "value": "高温快烤仅需 6–8 分钟" },
+      { "key": "包装类型", "value": "防潮底卡高阻隔真空贴体托盘" },
+      { "key": "推荐烹饪", "value": "果木炭烤、明火焗炉、铸铁煎锅" },
+      { "key": "贮存温度", "value": "冷藏：0°C 至 +2°C | 冷冻：-18°C" },
+      { "key": "保质期限", "value": "冷藏 12 天 / 源头急冻 18 个月" },
+      { "key": "权威认证", "value": "HACCP、ISO 22000、官方兽医出口卫生证书" }
+    ]
+  },
+  "signature-fillets": {
+    "title": "卡尔马哈特带皮高山鳟鱼柳（去肌间刺）",
+    "category": "高山旗舰冷泉鳟（卡尔马哈特）",
+    "img": "images/new_fillets.png",
+    "desc": "手工精修去骨高山冷泉鳟鱼柳，保留天然金色赤斑鱼皮用于酥脆香煎。收割后直接在冷泉旁完成热成型贴体真空锁鲜密封。",
+    "specs": [
+      { "key": "学名", "value": "Salmo trutta fario（亚美尼亚高山鳟）" },
+      { "key": "分割形态", "value": "带皮，手工修剪，拔除肌间刺（PBO）" },
+      { "key": "净重规格", "value": "每贴体托盘 250克 - 450克" },
+      { "key": "包装形式", "value": "高阻隔热成型真空贴体托盘配高端纸套腰封" },
+      { "key": "推荐料理", "value": "酥脆鱼皮香煎、雪松木板烘烤、黄油低温慢浸" },
+      { "key": "贮存温度", "value": "冷藏：0°C 至 +2°C | 冷冻：-18°C" },
+      { "key": "保质期限", "value": "冷藏 12 天 / 源头急冻 18 个月" },
+      { "key": "外箱规格", "value": "每主出口纸箱 12 托盘（约 4.5kg - 5.5kg）" },
+      { "key": "权威认证", "value": "HACCP、ISO 22000、官方兽医出口卫生证书" }
+    ]
+  },
   "box-whole-gutted": {
     "title": "整条去内脏山地鳟（5公斤批发主箱）",
     "category": "高山冷泉鳟 • 餐饮批发大宗规格",
@@ -1272,8 +1338,8 @@ const i18nData = {
   "cut2_title": "Butterfly Split (Opened)",
   "cut2_tag": "FIRE & CHARCOAL READY",
   "cut2_narrative": "Spatchcocked, opened flat with bone-in structure for fast, even heat conductivity. The flesh is fully exposed for searing and flame smoke while skin crisps evenly.",
-  "cut3_title": "Portioned Cuts & Fillets",
-  "cut3_tag": "PRECISION PLATING",
+  "cut3_title": "Skin-On Mountain Trout Fillet",
+  "cut3_tag": "CRISPY SKIN & CHEF CUT",
   "cut3_narrative": "Hand-trimmed center-cut portions and steak cuts with skin intact for crisp searing. Calibrated weights guarantee exact food cost control for retail grocers and restaurant kitchens.",
   "btn_wholesale": "WHOLESALE SPECIFICATIONS",
   "label_weight": "WEIGHT CALIBER",
@@ -1616,8 +1682,8 @@ const i18nData = {
   "cut2_title": "蝴蝶切剖片（展开式）",
   "cut2_tag": "炭火烧烤与铁板理想之选",
   "cut2_narrative": "专业去脊骨蝴蝶式展平，受热均匀穿透快。鱼肉完整舒展接受炭火烟熏与高温封边，鱼皮酥脆焦香，鱼肉鲜嫩多汁。",
-  "cut3_title": "精品分段份量与鱼柳",
-  "cut3_tag": "主厨高定精准摆盘",
+  "cut3_title": "带皮高山鳟鱼柳（去肌间刺）",
+  "cut3_tag": "香煎脆皮 · 名厨精切",
   "cut3_narrative": "手工细致修剪的中段厚切与无骨带皮鱼排。克重精准标定，为高端生鲜连锁与星级餐厅后厨提供精确的每份菜品成本核算。",
   "btn_wholesale": "查看批发技术规格",
   "label_weight": "规格克重",

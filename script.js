@@ -465,10 +465,615 @@ const productSpecsData = {
   }
 };
 
+const productSpecsDataZh = {
+  "hero-karmrakhayt": {
+    "title": "整条去内脏卡尔马哈特（冰鲜贴体托盘装）",
+    "category": "高海拔山地冷泉鳟",
+    "img": "images/karmrakhayt_hero_tray_cutout.png",
+    "desc": "我们的招牌高山冷泉鳟鱼，在天然冰川冷泉流水池中生长。整条去内脏保留鱼头，置于高透明度贴体托盘中，可置于冰上优雅陈列。",
+    "specs": [
+      {
+        "key": "学名",
+        "value": "Salmo trutta fario（亚美尼亚高山鳟）"
+      },
+      {
+        "key": "原产地",
+        "value": "亚美尼亚高海拔高山冰泉水域（海拔1,800米以上）"
+      },
+      {
+        "key": "供货规格",
+        "value": "每条 350-500克、500-700克"
+      },
+      {
+        "key": "包装形式",
+        "value": "热成型高阻隔真空贴体托盘配专属纸板腰封"
+      },
+      {
+        "key": "冷藏保质期",
+        "value": "0°C 至 +2°C 环境下 12 天"
+      },
+      {
+        "key": "冷冻保质期",
+        "value": "-18°C 环境下 18 个月（源头速冻锁鲜）"
+      },
+      {
+        "key": "外箱包装",
+        "value": "每出口纸箱 10 托盘（净重约 4.5kg - 6kg）"
+      },
+      {
+        "key": "权威认证",
+        "value": "HACCP、ISO 22000、官方兽医出口卫生证书"
+      }
+    ]
+  },
+  "hero-ishkhan": {
+    "title": "整条塞凡皇家鳟 / 伊什汗（去内脏·贴体 / MAP气调）",
+    "category": "亚美尼亚尊贵皇家高山鳟",
+    "img": "images/ishkhan_pack_perfect_cutout.png",
+    "desc": "亚美尼亚高地水域特有的历史传奇“鱼中王子”（Salmo ischchan）。以银亮珍珠鳞片、细腻大理石油花、清甜回甘与皇家尊贵血统闻名于世。",
+    "specs": [
+      {
+        "key": "学名",
+        "value": "Salmo ischchan（亚美尼亚高山塞凡湖鳟）"
+      },
+      {
+        "key": "原产地",
+        "value": "亚美尼亚高地冰川活泉水池"
+      },
+      {
+        "key": "供货规格",
+        "value": "450-700克、700-1100克、1.2公斤以上特大名厨规格"
+      },
+      {
+        "key": "包装形式",
+        "value": "MAP气调锁鲜托盘 / 高阻隔真空贴体托盘"
+      },
+      {
+        "key": "冷藏保质期",
+        "value": "0°C 至 +2°C 环境下 12 天"
+      },
+      {
+        "key": "肉质口感",
+        "value": "细腻薄片状鱼肉，带天然丝绒般大理石油花"
+      },
+      {
+        "key": "外箱包装",
+        "value": "每出口纸箱 8-10 托盘"
+      },
+      {
+        "key": "权威认证",
+        "value": "HACCP、ISO 22000、国家兽医出口检疫卫生证书"
+      }
+    ]
+  },
+  "whole-karmrakhayt": {
+    "title": "整条去内脏卡尔马哈特（冰鲜贴体托盘装）",
+    "category": "高海拔山地冷泉鳟",
+    "img": "images/new_whole_gutted.png",
+    "desc": "我们的招牌高山冷泉鳟鱼，在天然冰川冷泉流水池中生长。整条去内脏保留鱼头，置于高透明度贴体托盘中，可置于冰上优雅陈列。",
+    "specs": [
+      {
+        "key": "学名",
+        "value": "Salmo trutta fario（亚美尼亚高山鳟）"
+      },
+      {
+        "key": "原产地",
+        "value": "亚美尼亚高海拔高山冰泉水域（海拔1,800米以上）"
+      },
+      {
+        "key": "供货规格",
+        "value": "每条 350-500克、500-700克"
+      },
+      {
+        "key": "包装形式",
+        "value": "热成型高阻隔真空贴体托盘配专属纸板腰封"
+      },
+      {
+        "key": "冷藏保质期",
+        "value": "0°C 至 +2°C 环境下 12 天"
+      },
+      {
+        "key": "冷冻保质期",
+        "value": "-18°C 环境下 18 个月（源头速冻锁鲜）"
+      },
+      {
+        "key": "外箱包装",
+        "value": "每出口纸箱 10 托盘（净重约 4.5kg - 6kg）"
+      },
+      {
+        "key": "权威认证",
+        "value": "HACCP、ISO 22000、官方兽医出口卫生证书"
+      }
+    ]
+  },
+  "whole-ishkhan": {
+    "title": "整条塞凡皇家鳟 / 伊什汗（去内脏·贴体 / MAP气调）",
+    "category": "亚美尼亚尊贵皇家高山鳟",
+    "img": "images/product_whole_trout_premium.png",
+    "desc": "亚美尼亚高地水域特有的历史传奇“鱼中王子”（Salmo ischchan）。以银亮珍珠鳞片、细腻大理石油花、清甜回甘与皇家尊贵血统闻名于世。",
+    "specs": [
+      {
+        "key": "学名",
+        "value": "Salmo ischchan（亚美尼亚高山塞凡湖鳟）"
+      },
+      {
+        "key": "原产地",
+        "value": "亚美尼亚高地冰川活泉水池"
+      },
+      {
+        "key": "供货规格",
+        "value": "450-700克、700-1100克、1.2公斤以上特大名厨规格"
+      },
+      {
+        "key": "包装形式",
+        "value": "MAP气调锁鲜托盘 / 高阻隔真空贴体托盘"
+      },
+      {
+        "key": "冷藏保质期",
+        "value": "0°C 至 +2°C 环境下 12 天"
+      },
+      {
+        "key": "肉质口感",
+        "value": "细腻薄片状鱼肉，带天然丝绒般大理石油花"
+      },
+      {
+        "key": "外箱包装",
+        "value": "每出口纸箱 8-10 托盘"
+      },
+      {
+        "key": "权威认证",
+        "value": "HACCP、ISO 22000、国家兽医出口检疫卫生证书"
+      }
+    ]
+  },
+  "butterfly-trout": {
+    "title": "蝴蝶切展平带骨鳟鱼（解冻即烤）",
+    "category": "名厨高定特色切割",
+    "img": "images/product_butterfly_trout_premium.png",
+    "desc": "蝴蝶式平铺展平切割，带骨结构受热均匀，非常适合果木炭烤、明火焗烤或铸铁煎锅。鱼皮均匀酥脆焦香，鱼肉鲜嫩多汁。",
+    "specs": [
+      {
+        "key": "切割形态",
+        "value": "蝴蝶展开切（保留脊骨，去内脏）"
+      },
+      {
+        "key": "单包净重",
+        "value": "每贴体托盘 400克 - 600克"
+      },
+      {
+        "key": "烹饪耗时",
+        "value": "高温烹饪仅需 6–8 分钟"
+      },
+      {
+        "key": "包装类型",
+        "value": "高阻隔贴体真空托盘配卡头挂牌"
+      },
+      {
+        "key": "贮存温度",
+        "value": "冷藏：0°C 至 +2°C | 冷冻：-18°C"
+      }
+    ]
+  },
+  "trout-fillet": {
+    "title": "皇家鳟无骨鱼柳（带皮·去肌间细刺）",
+    "category": "皇家鳟（伊什汗）名贵精切",
+    "img": "images/product_trout_fillet_new.png",
+    "desc": "精选皇家伊什汗鳟鱼纯手工精修鱼柳，保留完整鱼皮用于酥脆香煎。深珊瑚粉红鱼肉，带有细腻丝绒油花。",
+    "specs": [
+      {
+        "key": "切割级别",
+        "value": "Trim C/D 级修整，手工拔刺（PBO），保留鱼皮"
+      },
+      {
+        "key": "零售规格",
+        "value": "每零售托盘净重 200克 - 400克"
+      },
+      {
+        "key": "包装形态",
+        "value": "高阻隔热成型真空贴体托盘配品牌纸套腰封"
+      },
+      {
+        "key": "欧米伽-3含量",
+        "value": "每 100克鱼肉约含 2.1克高活性 Omega-3"
+      },
+      {
+        "key": "推荐料理",
+        "value": "香煎脆皮、烤箱烘焙、雪松木板烟熏炙烤"
+      },
+      {
+        "key": "贮存温度",
+        "value": "冷藏：0°C 至 +2°C | 冷冻：-18°C"
+      },
+      {
+        "key": "外箱规格",
+        "value": "每主出口纸箱 12 包"
+      }
+    ]
+  },
+  "karmrakhayt-fillet": {
+    "title": "卡尔马哈特高山鳟鱼柳（带皮·去肌间刺）",
+    "category": "高山旗舰鳟鱼招牌精切",
+    "img": "images/product_karmrakhayt_fillet_premium.png",
+    "desc": "纯正冰川高山冷泉鳟鱼柳（Salmo trutta fario），保留天然金色赤斑鱼皮。肉质紧实弹牙，富含清冽高山活泉矿物原香。",
+    "specs": [
+      {
+        "key": "学名",
+        "value": "Salmo trutta fario（亚美尼亚高山鳟）"
+      },
+      {
+        "key": "分割形态",
+        "value": "带皮，纯手工修剪，拔除肌间细刺（PBO）"
+      },
+      {
+        "key": "净重规格",
+        "value": "每零售贴体托盘 250克 - 450克"
+      },
+      {
+        "key": "包装形式",
+        "value": "高阻隔热成型贴体包装配轻奢纸套腰封"
+      },
+      {
+        "key": "推荐料理",
+        "value": "酥脆鱼皮香煎、雪松木烤板慢烤、高山香草黄油低温慢浸"
+      },
+      {
+        "key": "贮存温度",
+        "value": "冷藏：0°C 至 +2°C | 冷冻：-18°C"
+      },
+      {
+        "key": "保质期限",
+        "value": "冷藏 12 天 / 源头急冻 12 个月"
+      }
+    ]
+  },
+  "trout-portions": {
+    "title": "皇家鳟定重中心切份",
+    "category": "皇家鳟（伊什汗）高精定重规格",
+    "img": "images/product_trout_portions_premium.png",
+    "desc": "克重精准校准的伊什汗中段厚切，专为星级餐饮精准控本与高端生鲜商超便捷烹饪而生。",
+    "specs": [
+      {
+        "key": "单份克重",
+        "value": "2块x 150克（共300克）或 4块x 120克（共480克）"
+      },
+      {
+        "key": "包装形式",
+        "value": "防漏真空贴体包装配精美纸套腰封"
+      },
+      {
+        "key": "致敏原提示",
+        "value": "含有鱼类成分。100% 不含麸质（Gluten-Free）"
+      },
+      {
+        "key": "烹饪耗时",
+        "value": "开袋即可烹饪，仅需 6–8 分钟"
+      },
+      {
+        "key": "目标买家",
+        "value": "高端超级市场、精品生鲜超市、国际航空配餐"
+      }
+    ]
+  },
+  "trout-steak": {
+    "title": "皇家鳟带骨厚切鱼排段",
+    "category": "皇家鳟（伊什汗）特级厚切",
+    "img": "images/product_trout_steak_premium.png",
+    "desc": "带中心脊骨横切的皇家伊什汗鳟鱼排，锁住深层骨髓汁液与丰富鲜味。极为适宜高温铁板香煎、炭火直烤与慢炖。",
+    "specs": [
+      {
+        "key": "切割形态",
+        "value": "横切鱼排，保留脊骨，保留鱼皮"
+      },
+      {
+        "key": "单包净重",
+        "value": "每零售包装 300克 - 500克"
+      },
+      {
+        "key": "包装形式",
+        "value": "热成型真空贴体托盘配高端纸套腰封"
+      },
+      {
+        "key": "推荐料理",
+        "value": "炭火烧烤、铸铁锅高温香煎、烤箱高温快烤"
+      },
+      {
+        "key": "贮存温度",
+        "value": "冷藏：0°C 至 +2°C | 冷冻：-18°C"
+      },
+      {
+        "key": "保质期限",
+        "value": "冷藏 12 天 / 冷冻 12 个月"
+      }
+    ]
+  },
+  "trout-roe-jar": {
+    "title": "BRINQ 尊贵高山鳟鱼子酱（金边玻璃瓶礼盒装）",
+    "category": "轻奢尊享系列",
+    "img": "images/product_trout_roe_new.png",
+    "desc": "璀璨橙红晶莹鱼子颗粒，温和轻柔手工萃取，极低盐度马洛索尔轻盐渍（Malossol < 3.2%）。奢华金边玻璃瓶装配专属展示礼盒。",
+    "specs": [
+      {
+        "key": "颗粒直径",
+        "value": "3.8毫米 – 4.5毫米（均匀大颗粒顶级分级）"
+      },
+      {
+        "key": "盐度指标",
+        "value": "马洛索尔轻盐工艺（< 3.2% 纯净海盐）"
+      },
+      {
+        "key": "包装规格",
+        "value": "真空水晶玻璃瓶（100克 / 200克）配外层展示硬盒"
+      },
+      {
+        "key": "保质期限",
+        "value": "-2°C 至 +2°C 温度下 12 个月"
+      },
+      {
+        "key": "色泽口感",
+        "value": "鲜亮通透的红宝石橙色，舌尖轻抿即可感受优雅爆浆感"
+      }
+    ]
+  },
+  "shrimp-hoso": {
+    "title": "凡纳滨对虾 / 南美白对虾（HOSO 带头带壳整虾）",
+    "category": "进口甲壳类精选 • 完整整虾",
+    "img": "images/shrimp_hoso_whole.png",
+    "desc": "新鲜捕捞速冻带头带壳整虾。最大程度保留虾膏天然浓醇甘甜与海洋清新原香，适用于整只盐烤、刺身拼盘与海鲜大餐。",
+    "specs": [
+      {
+        "key": "产品形态",
+        "value": "带头带壳（HOSO），生冻"
+      },
+      {
+        "key": "规格大小",
+        "value": "HOSO 30/40 尾/公斤"
+      },
+      {
+        "key": "包装规格",
+        "value": "1公斤零售自立袋 | 10公斤（10x1公斤）坚固主箱"
+      },
+      {
+        "key": "速冻与冰衣",
+        "value": "IQF 单体速冻 | 精准水冰衣 5–6%"
+      },
+      {
+        "key": "原产地",
+        "value": "印度进口产地"
+      },
+      {
+        "key": "贮存温度",
+        "value": "保存在 -18°C 或更低温度的冷冻库中"
+      }
+    ]
+  },
+  "shrimp-hlso": {
+    "title": "凡纳滨对虾 / 南美白对虾（HLSO 去头带壳烧烤段）",
+    "category": "进口甲壳类精选 • 烧烤炭火专研",
+    "img": "images/shrimp_hlso_bbq.png",
+    "desc": "去头保留虾壳与尾部完整。专为明火、炭火烤架及日式铁板烧设计，坚固原壳在高温下保护虾肉不干柴、多汁弹牙。",
+    "specs": [
+      {
+        "key": "产品形态",
+        "value": "去头带壳（HLSO），生冻"
+      },
+      {
+        "key": "可选规格",
+        "value": "16/20、21/25、26/30 尾/磅"
+      },
+      {
+        "key": "包装规格",
+        "value": "1公斤零售自立袋 | 10公斤坚固主箱"
+      },
+      {
+        "key": "保护冰衣",
+        "value": "均匀保鲜水冰衣 5–6%"
+      },
+      {
+        "key": "推荐料理",
+        "value": "极其适合炭火烤串、日式铁板烧与户外BBQ"
+      },
+      {
+        "key": "贮存温度",
+        "value": "冷冻贮存温度 -18°C"
+      }
+    ]
+  },
+  "shrimp-pdto": {
+    "title": "凡纳滨对虾 / 南美白对虾（PDTO 去壳去肠线留尾）",
+    "category": "进口甲壳类精选 • 免剥即烹",
+    "img": "images/shrimp_pdto_tail_on.png",
+    "desc": "手工完全去壳并剔除背部肠线，保留整齐优雅虾尾。专供高端西餐开胃菜、日式天妇罗、大蒜黄油香煎与鸡尾酒冷盘。",
+    "specs": [
+      {
+        "key": "产品形态",
+        "value": "去壳去肠线留尾（PDTO），生冻"
+      },
+      {
+        "key": "可选规格",
+        "value": "16/20、21/25、26/30、31/40 尾/磅"
+      },
+      {
+        "key": "包装规格",
+        "value": "1公斤配高清透视视窗自立袋 | 10公斤主箱"
+      },
+      {
+        "key": "厨房处理",
+        "value": "解冻后直接烹饪，无需二次剥壳去线"
+      },
+      {
+        "key": "保护冰衣",
+        "value": "冰衣占比 5–6%"
+      },
+      {
+        "key": "贮存温度",
+        "value": "冷冻贮存温度 -18°C"
+      }
+    ]
+  },
+  "shrimp-pd": {
+    "title": "凡纳滨对虾 / 南美白对虾（PD 纯虾仁·去壳去尾去肠线）",
+    "category": "进口甲壳类精选 • 100% 净肉率",
+    "img": "images/shrimp_pd_tail_off.png",
+    "desc": "彻底剥净虾壳、虾尾并清除肠线。100% 鲜嫩纯净可食净虾肉，海鲜意面、西班牙烩饭、轻食沙拉与波奇饭即刻开烹。",
+    "specs": [
+      {
+        "key": "产品形态",
+        "value": "去壳去尾去肠线（PD 纯虾仁），生冻"
+      },
+      {
+        "key": "规格大小",
+        "value": "PD 31/40 尾/磅"
+      },
+      {
+        "key": "包装规格",
+        "value": "1公斤零售自立袋 | 10公斤主箱"
+      },
+      {
+        "key": "食材出率",
+        "value": "100% 净肉出成率，厨房后厨零初加工时间"
+      },
+      {
+        "key": "保护冰衣",
+        "value": "冰衣占比 5–6%"
+      },
+      {
+        "key": "贮存温度",
+        "value": "冷冻贮存温度 -18°C"
+      }
+    ]
+  },
+  "box-whole-gutted": {
+    "title": "整条去内脏山地鳟（5公斤批发主箱）",
+    "category": "高山冷泉鳟 • 餐饮批发大宗规格",
+    "img": "images/box_whole_gutted_5kg.png",
+    "desc": "整条去腮洗净去内脏的高山鳟鱼，按克重精准校准分级，整齐码放于重型出口外箱中，内覆食品级加厚聚乙烯防护内衬。专供高端生鲜零售柜台与大型餐饮中央厨房。",
+    "specs": [
+      {
+        "key": "切割加工",
+        "value": "清洗剖净，保留头尾，去鳃去内脏"
+      },
+      {
+        "key": "净重规格",
+        "value": "5.0公斤定重出口标准纸箱"
+      },
+      {
+        "key": "单箱条数",
+        "value": "每箱 20–25 条（定标校准）"
+      },
+      {
+        "key": "包装类型",
+        "value": "加厚防水重型瓦楞纸箱配食品级聚乙烯内衬"
+      },
+      {
+        "key": "贮存保鲜",
+        "value": "冷藏 0–2°C（12天）或冷冻 -18°C（18个月）"
+      },
+      {
+        "key": "原产地",
+        "value": "亚美尼亚高地纯净高山冰川冷泉"
+      },
+      {
+        "key": "打托码放",
+        "value": "标准欧标托盘每托 72 箱（净重 360 公斤）"
+      },
+      {
+        "key": "权威认证",
+        "value": "HACCP、ISO 22000、官方兽医出口卫生证书"
+      }
+    ]
+  },
+  "box-butterfly-cut": {
+    "title": "蝴蝶切去骨山地鳟（5公斤名厨大宗主箱）",
+    "category": "高定精切 • 名厨大宗批发装",
+    "img": "images/box_butterfly_cut_5kg.png",
+    "desc": "去除中脊骨的蝴蝶展开式高山鳟鱼，展平分层码放，每层覆以食品级隔纸。即拆即烤、零后厨加工损耗，宴席与大型餐饮出品极速。",
+    "specs": [
+      {
+        "key": "切割加工",
+        "value": "蝴蝶式展平，去除中骨，解冻即烹"
+      },
+      {
+        "key": "净重规格",
+        "value": "5.0公斤定重出口标准纸箱"
+      },
+      {
+        "key": "单箱片数",
+        "value": "每箱 10–15 片"
+      },
+      {
+        "key": "包装类型",
+        "value": "餐饮级主纸箱，内置食品接触级防粘隔离纸"
+      },
+      {
+        "key": "贮存保鲜",
+        "value": "冷藏 0–2°C 或冷冻 -18°C"
+      },
+      {
+        "key": "推荐料理",
+        "value": "炭火烧烤、烤箱焗烤、铁板香煎、大型宴席出品"
+      },
+      {
+        "key": "原产地",
+        "value": "亚美尼亚高地纯净高山冰川冷泉"
+      },
+      {
+        "key": "权威认证",
+        "value": "HACCP、ISO 22000、官方兽医出口卫生证书"
+      }
+    ]
+  },
+  "box-fillets": {
+    "title": "无骨带皮高山鳟鱼柳（5公斤餐饮与商超主箱）",
+    "category": "新鲜精切 • HORECA 餐饮与生鲜商超专供",
+    "img": "images/box_fillets_5kg.png",
+    "desc": "纯手工精准剔除肌间刺的带皮高山鳟鱼柳，隔层码放方便主厨取用。净肉率高达100%，零多余边角废料损耗，烹饪受热均匀一致。",
+    "specs": [
+      {
+        "key": "切割加工",
+        "value": "带皮无骨，纯手工拔除肌间细刺（PBO）"
+      },
+      {
+        "key": "净重规格",
+        "value": "5.0公斤定重出口标准纸箱"
+      },
+      {
+        "key": "单箱片数",
+        "value": "每箱 20–25 片鱼柳"
+      },
+      {
+        "key": "包装类型",
+        "value": "分层防粘隔离主箱配高阻隔内衬膜"
+      },
+      {
+        "key": "贮存保鲜",
+        "value": "冷藏 0–2°C 或冷冻 -18°C"
+      },
+      {
+        "key": "出成效率",
+        "value": "100% 可食净肉率，零厨房损耗"
+      },
+      {
+        "key": "原产地",
+        "value": "亚美尼亚高地纯净高山冰川冷泉"
+      },
+      {
+        "key": "权威认证",
+        "value": "HACCP、ISO 22000、官方兽医出口卫生证书"
+      }
+    ]
+  }
+};
+
+let currentOpenModalId = null;
+
 function openSpecModal(productId) {
+  currentOpenModalId = productId;
   const modal = document.getElementById('specModal');
   const modalContent = document.getElementById('modalContent');
-  const item = productSpecsData[productId];
+  const data = (currentLang === 'zh' && typeof productSpecsDataZh !== 'undefined')
+    ? productSpecsDataZh
+    : productSpecsData;
+  const item = data[productId] || productSpecsData[productId];
 
   if (!item) return;
 
@@ -514,6 +1119,7 @@ function closeSpecModal(e) {
   if (e && e.target !== e.currentTarget && !e.target.classList.contains('modal-close')) {
     return;
   }
+  currentOpenModalId = null;
   const modal = document.getElementById('specModal');
   modal.classList.remove('open');
   document.body.style.overflow = 'auto';
@@ -1200,4 +1806,9 @@ function setLanguage(lang) {
 
   // Update <html lang> attribute for accessibility
   document.documentElement.lang = lang === 'zh' ? 'zh-CN' : 'en';
+
+  // If a modal is open, re-render it in the new language
+  if (currentOpenModalId) {
+    openSpecModal(currentOpenModalId);
+  }
 }

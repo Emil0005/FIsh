@@ -658,6 +658,26 @@ const i18nData = {
     form_message:       'Estimated Volume & Target Market',
     form_submit:        'Submit Wholesale Request',
 
+    // Hero narrative
+    hero_narrative: `We breed, raise, and pack Armenia's two iconic high-altitude species—<strong>Mountain Trout (Karmrakhayt)</strong> and <strong>Royal Trout (Ishkhan)</strong>—directly at our cold glacial spring pools. 100% natural mountain water flow, zero added hormones, non-GMO feed, and hermetically sealed in protective skin-pack trays within hours of swimming.`,
+
+    // Brand story
+    brand_lead:    'The story of BRINQ begins in Armenia — a land of majestic mountains, cold waters, and a rich tradition of aquaculture.',
+    brand_body1:   'Our inspiration is <strong>Karmrahayt</strong>, Armenian mountain trout distinguished by its characteristic red spots and raised in pristine highland aquaculture. It represents our ambition to introduce distinctive Armenian seafood products to international markets.',
+    brand_body2:   'But our vision reaches far beyond one product or one country. At BRINQ, we believe that exceptional seafood deserves access to global markets, wherever it originates. Our ambition is to connect producers, processors, importers, and distributors through reliable international trading partnerships.',
+    brand_tagline: '"Our journey begins in Armenia. Our vision reaches across the world."',
+
+    // MVP card paragraphs
+    mvp_mission_p: 'To connect quality seafood with global markets through reliability, transparency, and professional supply chain management.',
+    mvp_vision_p:  'To become a recognized global B2B seafood brand, trusted by producers and buyers worldwide.',
+    mvp_promise_p: 'Clear origins. Defined specifications. Commitment to every partnership — from the first inquiry to the final delivery.',
+
+    // Brand identity pills
+    pill_origins_label: 'BRINQ Origins',
+    pill_origins_sub:   'Karmrahayt · Rainbow Trout',
+    pill_global_label:  'BRINQ Global',
+    pill_global_sub:    'Shrimp · Salmon · Squid · Whitefish',
+
     // Footer
     footer_farm:     'The Farm',
     footer_products: 'Products',
@@ -767,6 +787,26 @@ const i18nData = {
     form_category:      '业务类别',
     form_message:       '预计采购量及目标市场',
     form_submit:        '提交批发申请',
+
+    // Hero narrative
+    hero_narrative: `我们直接在高寒山地冰泉养殖池旁，繁育、养殖并包装亚美尼亚两大标志性高海拔鱼种——<strong>山地鳟（卡尔马哈特）</strong>与<strong>皇家鳟（伊什汗）</strong>。100% 天然山泉水循环，零激素，非转基因饲料，收获后数小时内即在保护性透明贴体托盘中密封完成。`,
+
+    // Brand story
+    brand_lead:    'BRINQ 的故事始于亚美尼亚——一片雄伟山脉、清澈冷泉与深厚水产养殖传统交织的土地。',
+    brand_body1:   '我们的灵感来源是<strong>卡尔马哈特</strong>，这是一种以独特红斑著称的亚美尼亚山地鳟，在洁净的高地水产养殖环境中生长。它代表着我们将独特亚美尼亚海鲜产品引入国际市场的雄心。',
+    brand_body2:   '但我们的愿景远不止于一种产品或一个国家。在 BRINQ，我们相信卓越的海鲜应该能够进入全球市场，无论其产地何处。我们的目标是通过可靠的国际贸易合作，将生产商、加工商、进口商和经销商紧密相连。',
+    brand_tagline: '"我们的旅程始于亚美尼亚，我们的愿景延伸至全世界。"',
+
+    // MVP card paragraphs
+    mvp_mission_p: '通过可靠性、透明度和专业的供应链管理，将优质海鲜与全球市场连接起来。',
+    mvp_vision_p:  '成为全球公认的 B2B 海鲜品牌，赢得全球生产商与买家的信赖。',
+    mvp_promise_p: '清晰的产品溯源。明确的产品规格。对每段合作的承诺——从第一次询价到最终交货。',
+
+    // Brand identity pills
+    pill_origins_label: 'BRINQ 本源',
+    pill_origins_sub:   '卡尔马哈特 · 彩虹鳟',
+    pill_global_label:  'BRINQ 全球',
+    pill_global_sub:    '对虾 · 三文鱼 · 鱿鱼 · 白肉鱼',
 
     // Footer
     footer_farm:     '养殖场',

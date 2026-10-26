@@ -286,10 +286,10 @@ const productSpecsData = {
     ]
   },
   'trout-fillet': {
-    title: 'Trout Fillet (Skin-On, Pin-Bone Out)',
-    category: 'Fresh Cut Gourmet Fillets',
+    title: 'Royal Trout Fillet (Skin-On, PBO)',
+    category: 'Royal Trout (Ishkhan) Cuts',
     img: 'images/product_trout_fillet_new.png',
-    desc: 'Hand-trimmed fillets with skin intact for crisp searing. Vibrant coral-pink flesh with delicate intramuscular fat marbling.',
+    desc: 'Hand-trimmed fillets from Royal Ishkhan trout with skin intact for crisp searing. Vibrant coral-pink flesh with delicate velvety marbling.',
     specs: [
       { key: 'Cut Type', value: 'Trim C/D, Pin-Bone Out (PBO), Skin-On' },
       { key: 'Net Weight', value: '200g - 400g per retail tray' },
@@ -316,10 +316,10 @@ const productSpecsData = {
     ]
   },
   'trout-portions': {
-    title: 'Mountain Trout Portions (Center-Cut)',
-    category: 'Precision Portions',
+    title: 'Royal Trout Portions (Center-Cut)',
+    category: 'Royal Trout (Ishkhan) Precision Portions',
     img: 'images/product_trout_portions_premium.png',
-    desc: 'Calibrated weight center-cuts designed for portion-controlled food service and retail convenience.',
+    desc: 'Calibrated weight Ishkhan center-cuts designed for portion-controlled food service and luxury retail convenience.',
     specs: [
       { key: 'Portion Weights', value: '2x 150g (300g total) or 4x 120g (480g total)' },
       { key: 'Packaging', value: 'Leak-proof skin pack with luxury cardboard sleeve band' },
@@ -329,10 +329,10 @@ const productSpecsData = {
     ]
   },
   'trout-steak': {
-    title: 'Mountain Trout Steak (Cross-Cut)',
-    category: 'Prime Cuts',
+    title: 'Royal Trout Steak (Cross-Cut)',
+    category: 'Royal Trout (Ishkhan) Prime Cuts',
     img: 'images/product_trout_steak_premium.png',
-    desc: 'Cross-cut trout steaks with central bone for locked-in succulence and culinary richness. Ideal for high-heat pan searing and char-grilling.',
+    desc: 'Cross-cut Royal Ishkhan steaks with central bone for locked-in succulence and delicate rich flavor. Ideal for high-heat pan searing and char-grilling.',
     specs: [
       { key: 'Cut Type', value: 'Cross-cut steak, bone-in, skin-on' },
       { key: 'Net Weight', value: '300g - 500g per retail pack' },

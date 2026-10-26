@@ -163,50 +163,26 @@ a {
 
 .brand-logo {
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   text-decoration: none;
+  line-height: 0;
 }
 
-/* ── New SVG-ring logo ── */
-.logo-wordmark {
-  display: flex;
-  align-items: center;
-  gap: 1px;
-  line-height: 1;
+.brand-logo-img {
+  height: 56px;       /* tall enough to read clearly */
+  width: auto;
+  /* The PNG background is #080c22, navbar is #080e27 — nearly identical dark navy.
+     No background removal needed; the colors blend naturally. */
+  display: block;
+  border-radius: 4px;
 }
 
-.brand-name-text {
-  font-family: var(--font-heading);
-  font-size: 2.1rem;
-  font-weight: 800;
-  letter-spacing: 0.14em;
-  color: #ffffff;
-  line-height: 1;
-}
-
-.brand-q-ring {
-  display: flex;
-  align-items: center;
-  width: 2.05rem;
-  height: 2.05rem;
-  filter: drop-shadow(0 0 8px rgba(255, 106, 0, 0.55));
-}
-
-.brand-q-ring svg {
-  width: 100%;
-  height: 100%;
-}
-
-.brand-tag {
-  font-size: 0.6rem;
-  letter-spacing: 0.42em;
-  color: var(--accent-gold);
-  font-weight: 700;
-  margin-top: 3px;
-  text-transform: uppercase;
-  padding-left: 1px;
-}
+/* ── Legacy/unused classes kept for safety ── */
+.logo-wordmark { display: flex; align-items: center; gap: 1px; }
+.brand-name-text { font-family: var(--font-heading); font-size: 2.1rem; font-weight: 800; letter-spacing: 0.14em; color: #ffffff; line-height: 1; }
+.brand-q-ring { display: flex; align-items: center; width: 2.05rem; height: 2.05rem; }
+.brand-q-ring svg { width: 100%; height: 100%; }
+.brand-tag { font-size: 0.6rem; letter-spacing: 0.42em; color: var(--accent-gold); font-weight: 700; margin-top: 3px; text-transform: uppercase; }
 
 .nav-menu {
   display: flex;
